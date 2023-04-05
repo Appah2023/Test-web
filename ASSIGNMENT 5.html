@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>BOOTSTRAP ASSIGNMENT</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+  <style>
+    img{
+      border: 3px solid black;
+      width: 100%;
+      border-radius: 20px;
+    }
+    form{
+      border: 3px solid black;
+      border-radius: 20px;
+      width: 100%;
+      padding: 30px;
+    }
+    .g{
+      background-color: blue;
+      border: 2px solid black;
+      width: 100%;
+    }
+    .f{
+      border: 2px solid black;
+    }
+    table,th, td{
+      background-color: bisque;
+      border: 2px solid black;
+      border-collapse: collapse;
+      font-size: 17px;
+      text-align: center;
+      width: 100%;
+      margin-right: 5px;
+      margin-bottom: 10px;
+      table-layout: fixed;
+    }
+    th{
+      background-color: red;
+    }
+  </style>
+</head>
+<body>
+<div class="container">
+  <div class="row">
+    <div class="col-md-6 bg-success">
+      <h3>BRIDGES</h3>
+      <img src="Pictures/Golden-gate-bridge-San%20Francisco.webp" alt="Golden Gate Bridge"> <br><br>
+          <p>A bridge is a structure built to span a physical obstacle (such as a body of water, valley, road, or rail) without blocking the way underneath.
+            It is constructed for the purpose of providing passage over the obstacle, which is usually something that is otherwise difficult or impossible to cross.
+            There are many different designs of bridges, each serving a particular purpose and applicable to different situations. Designs of bridges vary depending on factors such as the
+            function of the bridge, the nature of the terrain where the bridge is constructed and anchored, and the material used to make it, and the funds available to build it.</p>
+      <p>The earliest bridges were likely made with fallen trees and stepping stones. The Neolithic people built boardwalk bridges across marshland.
+        The Arkadiko Bridge (dating from the 13th century BC, in the Peloponnese) is one of the oldest arch bridges still in existence and use.</p>
+
+      <h4>Types bridges</h4>
+      <ul>
+        <li>Beam bridge.</li>
+        <li>Truss bridge.</li>
+        <li>Cantilever bridge.</li>
+        <li>Arch bridge.</li>
+        <li>Tied arch bridge.</li>
+        <li>Suspension bridge.</li>
+        <li>Cable-stayed bridge.</li>
+      </ul>
+
+      <h4>Famous bridges in Africa</h4>
+        <table>
+          <thead>
+          <tr>
+            <th>Bridge Name</th>
+            <th>Length (km)</th>
+            <th>Country</th>
+          </tr>
+          </thead>
+          <tbody>
+          <tr>
+            <td>Mombasa Gate Bridge</td>
+            <td>1.4</td>
+            <td>Kenya</td>
+          </tr>
+          <tr>
+            <td>Nyali Bridge</td>
+            <td>0.39</td>
+            <td>Kenya</td>
+          </tr>
+          <tr>
+            <td>Mtwapa Bridge</td>
+            <td>0.19</td>
+            <td>Kenya</td>
+          </tr>
+          <tr>
+            <td>Kilifi Bridge</td>
+            <td>0.42</td>
+            <td>Kenya</td>
+          </tr>
+          <tr>
+            <td>Third Mainland Bridge</td>
+            <td>10.5</td>
+            <td>Nigeria</td>
+          </tr>
+          <tr>
+            <td>6th October Bridge</td>
+            <td>20.5</td>
+            <td>Egypt</td>
+          </tr>
+          <tr>
+            <td>Suez Canal Bridge</td>
+            <td>3.9</td>
+            <td>Egypt</td>
+          </tr>
+          <tr>
+            <td>Mozambique Island Bridge</td>
+            <td>3.8</td>
+            <td>Mozambique</td>
+          </tr>
+          <tr>
+            <td>Dona Ana Bridge</td>
+            <td>3.6</td>
+            <td>Mozambique</td>
+          </tr>
+          <tr>
+            <td>Wouri Bridge</td>
+            <td>1.8</td>
+            <td>Cameroon</td>
+          </tr>
+          <tr>
+            <td>Mkapa Bridge</td>
+            <td>0.97</td>
+            <td>Tanzania</td>
+          </tr>
+          <tr>
+            <td>Mukuku Bridge</td>
+            <td>2.5</td>
+            <td>Zambia</td>
+          </tr>
+          <tr>
+            <td>Katima Mulilo Bridge</td>
+            <td>0.9</td>
+            <td>Zambia</td>
+          </tr>
+          </tbody>
+        </table>
+    </div>
+
+   <div class="col-md-6 bg-warning">
+      <h3>FORM</h3>
+      <form action="">
+        <div class="row g-3">
+          <div class="col-md-6">
+          <label>First name</label>
+          <input type="Text" class="form-control bg-success f">
+          </div>
+          <div class="col-md-6">
+            <label>Last name</label>
+            <input type="text" class="form-control bg-success f">
+          </div>
+          <div class="col-md-12">
+            <label>Gender</label>
+            <select name="gender" id="gender" class="form-control bg-success f">
+              <option value="Male">Male</option>
+              <option value="Female">Female</option>
+            </select>
+          </div>
+          <div class="col-md-6">
+            <label>Birthday</label>
+            <input type="Date" class="form-control bg-success f">
+          </div>
+
+          <div class="col-md-6">
+            <label>Phone number</label>
+            <input type="Number" class="form-control bg-success f">
+          </div>
+          <div class="col-md-6">
+            <label>Password</label>
+            <input type="Password" class="form-control bg-success f">
+          </div>
+          <div class="col-md-6">
+            <label>Email address</label>
+            <input type="email" class="form-control bg-success f">
+          </div>
+          <div class="col-md-6">
+            <label>Upload Resume</label>
+            <input type="file" class="form-control bg-success f">
+          </div>
+          <div class="col-md-6">
+            <label>Website</label>
+            <input type="url" class="form-control bg-success f">
+          </div>
+          <div class="col-md-12">
+            <label>Message</label>
+            <textarea class="form-control col-md-10 bg-success f"></textarea>
+          </div>
+          <div class="col-md-12">
+           <input type="submit" value="Register" class="form-control g">
+          </div>
+        </div>
+      </form>
+   </div>
+  </div>
+
+</div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js" integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N" crossorigin="anonymous"></script>
+</div>
+</body>
+</html>
